@@ -1,6 +1,6 @@
 {
   "name": "temp-server",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Serve specific route with specific content.",
   "license": "MIT",
   "repository": "egoist/temp-server",
