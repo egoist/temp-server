@@ -1,0 +1,49 @@
+{
+  "name": "temp-server",
+  "version": "0.0.0",
+  "description": "Serve specific route with specific content.",
+  "license": "MIT",
+  "repository": "egoist/temp-server",
+  "author": {
+    "name": "EGOIST",
+    "email": "0x142857@gmail.com",
+    "url": "github.com/egoist"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "bin": "cli.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo"
+  },
+  "files": [
+    "index.js",
+    "cli.js"
+  ],
+  "keywords": [
+    ""
+  ],
+  "devDependencies": {
+    "xo": "latest"
+  },
+  "xo": {
+    "semicolon": false,
+    "space": 2,
+    "rules": {
+      "operator-linebreak": [
+        2,
+        "before"
+      ]
+    }
+  },
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "handlebars": "^4.0.5",
+    "koa": "^1.2.0",
+    "koa-logger": "^1.3.0",
+    "koa-router": "^5.4.0"
+  }
+}
